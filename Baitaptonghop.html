@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng ký sinh viên mới</title>
+</head>
+<body>
+    <h2>Đăng ký sinh viên mới</h2>
+    <form action="#" method="post">
+
+        <label for="fullname">Họ và tên</label>
+        <input type="text" id="fullname" name="fullname" value="Trần Minh Đức">
+        <br>
+
+        <label for="dob">Ngày sinh đầy đủ</label>
+        <input type="date" id="dob" name="dob" value="2007-03-19">
+        <br>
+
+        <label for="start_month">Tháng và năm nhập học</label>
+        <input type="month" id="start_month" name="start_month" value="2023-09">
+        <br>
+
+        <label for="study_time">Thời gian học</label>
+        <input type="time" id="study_time" name="study_time" value="08:00">
+        <br>
+
+        <label>Giới tính</label>
+        <input type="radio" id="gender_male" name="gender" value="Nam">
+        <label for="gender_male">Nam</label>
+        <input type="radio" id="gender_female" name="gender" value="Nữ">
+        <label for="gender_female">Nữ</label>
+        <input type="radio" id="gender_other" name="gender" value="Khác" checked>
+        <label for="gender_other">Khác</label>
+        <br>
+
+        <label for="email">Email sinh viên</label>
+        <input type="email" id="email" name="email" value="ducktran123456@gmail.com">
+        <br>
+
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" name="password" value="12345678">
+        <br>
+
+        <label for="goal">Mục tiêu học tập</label>
+        <br>
+        <textarea id="goal" name="goal" rows="4" cols="40">Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea>
+        <br>
+
+        <label for="campus">Cơ sở</label>
+        <select id="campus" name="campus">
+            <option value="Hà Nội">Hà Nội</option>
+            <option value="TP.HCM">TP.HCM</option>
+            <option value="Đà Nẵng">Đà Nẵng</option>
+        </select>
+        <br>
+
+        <label for="photo">Ảnh thẻ sinh viên</label>
+        <input type="file" id="photo" name="photo">
+        <br>
+
+        <label>Môn học yêu thích</label>
+        <br>
+        <input type="checkbox" id="math" name="subject_math" value="Toán học" checked>
+        <label for="math">Toán học</label>
+        <input type="checkbox" id="programming" name="subject_programming" value="Lập trình">
+        <label for="programming">Lập trình</label>
+        <input type="checkbox" id="english" name="subject_english" value="Tiếng Anh">
+        <label for="english">Tiếng Anh</label>
+        <input type="checkbox" id="physics" name="subject_physics" value="Vật lý">
+        <label for="physics">Vật lý</label>
+        <br>
+
+        <label for="progress">Tiến độ học tập</label>
+        <input type="range" id="progress" name="progress" min="0" max="100" value="50">
+        <br>
+
+        <label for="year">Năm học thứ</label>
+        <input type="number" id="year" name="year" min="1" max="5" value="2">
+        <br>
+
+        <label for="search">Tìm kiếm khóa học</label>
+        <input type="search" id="search" name="search" value="Khoa học máy tính">
+        <br>
+
+        <label for="color">Màu sắc yêu thích</label>
+        <input type="color" id="color" name="color">
+        <br>
+
+        <input type="submit" value="Hủy">
+        <input type="submit" value="Làm mới">
+        <input type="submit" value="Gửi">
+
+    </form>
+
+</body>
+</html>
